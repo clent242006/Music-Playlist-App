@@ -1,16 +1,59 @@
-# React + Vite
+# Music Playlist App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Music Playlist App built using Vite and React.js.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- View songs in a playlist
+- Search songs by title or artist
+- Add new songs
+- Play a selected song
+- Add songs to favorites
+- Remove songs from favorites
+- Delete songs
+- Clear search results
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript
+- HTML
+- CSS
 
-## Expanding the ESLint configuration
+## React Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project demonstrates basic React concepts such as:
+
+- `useState`
+- Components
+- Props
+- Event handling
+- Conditional rendering
+- `map()`
+- `filter()`
+
+## Components
+
+### App.jsx
+
+The main component of the application. It manages the playlist data and application states.
+
+### SongItem.jsx
+
+Displays each song and provides buttons for Play, Favorite, and Delete.
+
+### AddSong.jsx
+
+Contains the form for adding a new song.
+
+## How to Run
+
+1. Clone the repository.
+
+2. Open the project folder.
+
+3. Install the dependencies:
+
+```bash
+npm install
